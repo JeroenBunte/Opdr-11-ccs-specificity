@@ -1,0 +1,80 @@
+
+
+.container {
+    height: 100%;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas: 
+    "h h h h h h"
+    "m m m m m m"
+    "l l l l l l"
+    "v v v v v v"
+    "f f f f f f"
+}
+
+.header {
+    grid-area: h;
+}
+
+.main {
+    grid-area: m;
+}
+
+.link-area {
+    grid-area: l;
+}
+
+.site-video {
+    grid-area: v;
+}
+
+.footer {
+    grid-area: f;
+}
+
+#Aprove {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-color: limegreen;
+    height: 40px;
+    width: 200px;
+    font-weight:bolder;
+    text-align: center;
+    box-sizing: border-box;
+    
+}
+
+#Decline {
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-color: red;
+    height: 40px;
+    width: 200px;
+    font-weight:bolder;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+
+
+.container {
+border: 5px;
+border-color: darkgray;
+border-radius: 20pc;
+}
+
+span {
+    display:flex;
+}
+
+p { 
+    font-size: 20px;
+}
+
+h2 {
+    color: slategrey;
+    padding:0px
+}
+
